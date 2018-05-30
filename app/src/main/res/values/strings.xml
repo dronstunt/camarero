@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camarero</string>
+    <string name="Correo">Correo</string>
+    <string name="Logo">Logo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Entrar">Entrar</string>
+</resources>
