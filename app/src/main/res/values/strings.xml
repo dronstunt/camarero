@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Camarero</string>
-    <string name="Correo">Correo</string>
-    <string name="Logo">Logo</string>
-    <string name="Contraseña">Contraseña</string>
-    <string name="Entrar">Entrar</string>
+    <string name="correo">Correo</string>
+    <string name="logo">Logo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="no_tienes">¿No tienes cuenta?</string>
+    <string name="registrate">Regístrate</string>
+
 </resources>
