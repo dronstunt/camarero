@@ -23,7 +23,7 @@
 
     <EditText
         android:id="@+id/edtCorreoRegistro"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -41,7 +41,7 @@
 
     <EditText
         android:id="@+id/edtNombreRegistro"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -59,7 +59,7 @@
 
     <EditText
         android:id="@+id/edtContraseñaRegistro"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="44dp"
@@ -69,6 +69,7 @@
         android:ems="10"
         android:hint="@string/contraseña"
         android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorGray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.295"
@@ -77,20 +78,20 @@
 
     <Button
         android:id="@+id/botonRegistro"
-        android:layout_width="220dp"
+        android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/round_button"
         android:text="@string/registrar"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtContraseñaRegistro"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintTop_toBottomOf="@+id/edtConfirmarContraseñaRegistro"
+        app:layout_constraintVertical_bias="0.652" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -98,4 +99,22 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+
+    <EditText
+        android:id="@+id/edtConfirmarContraseñaRegistro"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rounded_border"
+        android:drawableLeft="@drawable/ic_action_contrasena"
+        android:ems="10"
+        android:hint="@string/confirmar_contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtContraseñaRegistro" />
 </android.support.constraint.ConstraintLayout>

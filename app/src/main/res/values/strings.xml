@@ -3,6 +3,7 @@
     <string name="correo">Correo</string>
     <string name="logo">Logo</string>
     <string name="contraseña">Contraseña</string>
+    <string name="confirmar_contraseña">Confirmar Contraseña</string>
     <string name="entrar">Entrar</string>
     <string name="registrar">Registrar</string>
     <string name="nombre">Nombre</string>
